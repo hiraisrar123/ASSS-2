@@ -11,7 +11,7 @@ function Cards() {
             <Card className="border-0 shadow-sm h-100">
               <Card.Img
                 variant="top"
-                src="https://via.placeholder.com/400x300"
+                src="public/card-1.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>Share the experience</Card.Title>
@@ -23,7 +23,7 @@ function Cards() {
             <Card className="border-0 shadow-sm h-100">
               <Card.Img
                 variant="top"
-                src="https://via.placeholder.com/400x300"
+                src="public/card-5.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>The new art idea</Card.Title>
@@ -35,7 +35,81 @@ function Cards() {
             <Card className="border-0 shadow-sm h-100">
               <Card.Img
                 variant="top"
-                src="https://via.placeholder.com/400x300"
+                src="public/card-4.jpg"
+              />
+              <Card.Body className="text-center">
+                <Card.Title>Different factors</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+
+          <Col lg={4} md={6}>
+            <Card className="border-0 shadow-sm h-100">
+              <Card.Img
+                variant="top"
+                src="public/card-1.jpg"
+              />
+              <Card.Body className="text-center">
+                <Card.Title>Share the experience</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} md={6}>
+            <Card className="border-0 shadow-sm h-100">
+              <Card.Img
+                variant="top"
+                src="public/card-2.jpg"
+              />
+              <Card.Body className="text-center">
+                <Card.Title>The new art idea</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} md={6}>
+            <Card className="border-0 shadow-sm h-100">
+              <Card.Img
+                variant="top"
+                src="public/card-6.jpg"
+              />
+              <Card.Body className="text-center">
+                <Card.Title>Different factors</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+   
+          <Col lg={4} md={6}>
+            <Card className="border-0 shadow-sm h-100">
+              <Card.Img
+                variant="top"
+                src="public/card-7.jpg"
+              />
+              <Card.Body className="text-center">
+                <Card.Title>Share the experience</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} md={6}>
+            <Card className="border-0 shadow-sm h-100">
+              <Card.Img
+                variant="top"
+                src="public/card-8.jpg"
+              />
+              <Card.Body className="text-center">
+                <Card.Title>The new art idea</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} md={6}>
+            <Card className="border-0 shadow-sm h-100">
+              <Card.Img
+                variant="top"
+                src="public/card-9.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>Different factors</Card.Title>
@@ -44,6 +118,8 @@ function Cards() {
           </Col>
 
         </Row>
+
+
       </Container>
     </section>
   );
