@@ -1,19 +1,15 @@
-function Navbar() {
-  return (
-    <nav className="navbar">
-      {/* Left side logo */}
-      <div className="nav-logo">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/616/616430.png"
-          alt="logo"
-        />
-      </div>
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
-      
-<button>Buy Now</button>
-     
-    </nav>
+function MyNavbar() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#">My App</Navbar.Brand>
+        <button className="btn btn-danger">Buy Now</button>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default MyNavbar;
