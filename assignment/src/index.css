@@ -38,29 +38,31 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
 }
+/* NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px 60px;
+  height: 70px;
+  background: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  padding: 0 40px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
 }
 
-.nav-logo {
-  font-size: 22px;
-  font-weight: bold;
+.nav-logo img {
+  width: 40px;
 }
 
-.nav-links {
-  list-style: none;
+.nav-icons {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
-.nav-links li {
+.icon {
+  font-size: 20px;
   cursor: pointer;
-  color: #444;
 }

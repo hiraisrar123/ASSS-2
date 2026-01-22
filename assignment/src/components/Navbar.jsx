@@ -1,17 +1,17 @@
-
-import React from 'react'
-
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-logo">Marée</div>
+      {/* Left side logo */}
+      <div className="nav-logo">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/616/616430.png"
+          alt="logo"
+        />
+      </div>
 
-      <ul className="nav-links">
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+      
+<button>Buy Now</button>
+     
     </nav>
   );
 }
