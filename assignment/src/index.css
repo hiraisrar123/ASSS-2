@@ -66,3 +66,15 @@ body {
   font-size: 20px;
   cursor: pointer;
 } */
+.card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  border-radius: 12px 12px 0 0;
+}

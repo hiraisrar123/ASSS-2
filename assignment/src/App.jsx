@@ -3,10 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Cards from "./components/Cards";
 import MyNavbar from "./components/Navbar";
 function App() {
   return (
     <>
+          <MyNavbar />
       <div className="hero">
         <h1 className="logo">
           Mar<span>é</span>e
@@ -19,6 +21,7 @@ function App() {
 
         <button className="btn">PURCHASE</button>
       </div>
+        <Cards />
     </>
   );
 }
