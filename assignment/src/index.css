@@ -78,3 +78,22 @@ body {
 .card img {
   border-radius: 12px 12px 0 0;
 }
+.custom-card {
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.custom-card img {
+  height: 220px;        /* yahan size control hoga */
+  object-fit: cover;   /* image crop ho kar fit hogi */
+}
+.custom-card:hover {
+  transform: translateY(10px);
+}
+.move-left:hover {
+  transform: translateX(-10px);
+}
+
+.move-right:hover {
+  transform: translateX(10px);
+}

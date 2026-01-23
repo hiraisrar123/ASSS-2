@@ -8,7 +8,7 @@ function Cards() {
         <Row className="g-4">
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+           <Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
                 src="public/card-1.jpg"
@@ -20,7 +20,7 @@ function Cards() {
           </Col>
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+          <Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
                 src="public/card-5.jpg"
@@ -32,7 +32,7 @@ function Cards() {
           </Col>
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
                 src="public/card-4.jpg"
@@ -45,7 +45,7 @@ function Cards() {
 
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
                 src="public/card-1.jpg"
@@ -57,7 +57,7 @@ function Cards() {
           </Col>
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
                 src="public/card-2.jpg"
@@ -69,7 +69,7 @@ function Cards() {
           </Col>
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
                 src="public/card-6.jpg"
@@ -82,7 +82,7 @@ function Cards() {
 
    
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card move-right">
               <Card.Img
                 variant="top"
                 src="public/card-7.jpg"
@@ -94,7 +94,7 @@ function Cards() {
           </Col>
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card move-right">
               <Card.Img
                 variant="top"
                 src="public/card-8.jpg"
@@ -106,7 +106,7 @@ function Cards() {
           </Col>
 
           <Col lg={4} md={6}>
-            <Card className="border-0 shadow-sm h-100">
+<Card className="border-0 shadow-sm h-100 custom-card move-right">
               <Card.Img
                 variant="top"
                 src="public/card-9.jpg"
