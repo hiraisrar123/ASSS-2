@@ -3,10 +3,19 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#">My App</Navbar.Brand>
-        <button className="btn btn-danger">Buy Now</button>
+    <Navbar
+      expand="lg"
+      className="bg-black fixed-top w-100"
+    >
+      <Container fluid className="d-flex justify-content-between align-items-center">
+        <Navbar.Brand href="#" className="text-white">
+          My App
+        </Navbar.Brand>
+
+        {/* BUTTON ALWAYS VISIBLE */}
+        <button className="btn light-green-btn">
+          Buy Now
+        </button>
       </Container>
     </Navbar>
   );

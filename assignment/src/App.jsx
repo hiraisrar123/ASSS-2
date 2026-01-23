@@ -9,12 +9,6 @@ import './App.css'
 import Cards from "./components/Cards";
 import MyNavbar from "./components/Navbar";
 function App() {
-    useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-    });
-  }, []);
   return (
     <>
           <MyNavbar />
@@ -28,7 +22,7 @@ function App() {
           just waiting for your work to start populating its templates!
         </p>
 
-        <button className="btn">PURCHASE</button>
+<button className="btn purchase-btn">PURCHASE</button>
       </div>
         <Cards />
     </>
