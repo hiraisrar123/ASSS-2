@@ -25,6 +25,15 @@ function App() {
 <button className="btn purchase-btn">PURCHASE</button>
       </div>
         <Cards />
+
+        <div className="hero">
+        <img src="public/img-1.png" alt="" />
+        <p className="text">
+          Welcome to Marée, a brand new illustration & design portfolio
+          just waiting for your work to start populating its templates!
+        </p>
+        <button className="btn purchase-btn">PURCHASE</button>
+</div>
     </>
   );
 }
