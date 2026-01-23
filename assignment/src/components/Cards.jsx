@@ -7,7 +7,7 @@ function Cards() {
       <Container>
         <Row className="g-4">
 
-          <Col lg={4} md={6}>
+<Col lg={4} md={6} data-aos="fade-up">
            <Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
@@ -19,7 +19,7 @@ function Cards() {
             </Card>
           </Col>
 
-          <Col lg={4} md={6}>
+<Col lg={4} md={6} data-aos="fade-up">
           <Card className="border-0 shadow-sm h-100 custom-card">
               <Card.Img
                 variant="top"
