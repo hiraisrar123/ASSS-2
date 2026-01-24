@@ -33,7 +33,6 @@ function App() {
           just waiting for your work to start populating its templates!
         </p>
         <button className="btn purchase-btn">PURCHASE</button>cd assignment
-        
 </div>
     </>
   );
